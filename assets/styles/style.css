@@ -186,6 +186,7 @@
   align-items: center;
   justify-content: center;
   background-color: #FCB500;
+  border-radius: 10px;
   width: 256px;
   height: 56px;
 }
