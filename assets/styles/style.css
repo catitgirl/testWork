@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(/assets/styles/fonts/Rubik-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__menu {
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #111111;
+}
+.header__menu img {
+  width: 120px;
+  height: 35px;
+}
+.header__menu .header__nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.header__menu .header__nav a {
+  font-family: "Rubik";
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.part__info {
+  background-image: url("/assets/images/bg.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 872px;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.part__info h1 {
+  padding-left: 64px;
+  padding-top: 96px;
+  text-transform: uppercase;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 152px;
+  color: #FFFFFF;
+  position: relative;
+}
+.part__info .picture__info img {
+  width: 100%;
+  max-height: 950px;
+}/*# sourceMappingURL=style.css.map */

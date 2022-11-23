@@ -1,0 +1,72 @@
+$colorOne: #FCB500;
+$colorOpen: #FFFFFF;
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(/assets/styles/fonts/Rubik-Regular.ttf);
+}
+
+@mixin containerPadding {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+$fontStyle:'Rubik';
+
+@mixin navtStyle {
+    font-family: $fontStyle;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: $colorOpen;
+}
+
+//for h1
+@mixin titleBig {
+    text-transform: uppercase;
+    font-family: $fontStyle;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    color: $colorOpen;
+}
+
+
+//for h2
+@mixin titleMedium {
+    font-family: $fontStyle;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+//for h3
+@mixin titleSmall {
+    font-family: $fontStyle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+//for p
+@mixin textBig {
+    font-family: $fontStyle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+//for span
+@mixin textSmall {
+    font-family: $fontStyle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

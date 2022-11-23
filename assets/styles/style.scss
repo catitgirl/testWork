@@ -1,0 +1,50 @@
+@import './vars';
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header__menu {
+    @include containerPadding;
+    background-color: #111111;
+    img {
+        width: 120px;
+        height: 35px;
+    }
+   .header__nav {
+   width: 100%;
+   height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    a {
+        @include 
+            navtStyle;
+            text-decoration: none;
+    }
+   }  
+}
+
+.part__info {
+    background-image: url("/assets/images/bg.png");
+    background-size: 100% 100%;
+    width: 100%;
+ height: 872px;
+  display: grid;
+  grid-template-columns: 50% auto;
+    h1 {
+       padding-left: 64px;
+        padding-top: 96px;
+        @include titleBig;
+        position: relative;
+    }
+    .picture__info {
+img {
+    width: 100%;
+    max-height: 950px;
+}
+    
+
+    }
+   }
